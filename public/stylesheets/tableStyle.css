@@ -1,0 +1,10 @@
+/* CSS Document */
+* {margin:0;padding:0} 
+.tableBody {margin:100px} 
+.tableBody ul {width:400px; height:auto;list-style:none;} 
+//.tableBody li.column1{border-left:1px solid #000000;border-top:1px solid #000000;float:left;width:10%;height:33px;text-align:center;line-height:33px}
+.tableBody li{border-width:1px 0 0 1px; border-style:solid; border-color:#000000; float:left; line-height:30px; text-align:center;}
+.tableBody li.column1{width:10%;} 
+.tableBody li.column2{width:50%;} 
+.tableBody li.column3{width:39%;border-right:1px solid #000000;} 
+.tableBody li.bottomLine {border-bottom:1px solid #000000;} 

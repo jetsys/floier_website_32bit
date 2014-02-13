@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>#{get 'title' /}</title>
+        <meta charset="${_response_encoding}">
+        <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/layout.css'}">
+        <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/picExchange.css'}">
+        #{get 'moreStyles' /}
+        <link rel="shortcut icon" type="image/png" href="@{'/public/images/favicon.png'}">
+        <script src="@{'/public/javascripts/picExchange.js'}" type="text/javascript" charset="${_response_encoding}"></script>
+        #{get 'moreScripts' /}
+    </head>
+    <body>
+		<div id="container">
+		<div id="header"><img src="@{'/public/images/header.jpg'}" class="logoright"/></div>
+		<div id="nav">
+		<div class="nav_main">
+		  <ul>
+			<li><a href="/"><span>首页</span></a></li>
+			<li><a href="porductdes"><span>产品展示</span></a></li>
+			<li><a href="companyintro"><span>企业简介</span></a></li>	
+			<li><a href="designcase"><span>设计案例</span></a></li>
+			<li><a href="companyhistory"><span>企业历史</span></a></li>
+			<li><a href="weborder"><span>网上下单</span></a></li>
+			<li><a href="contactus"><span>联系我们</span></a></li>
+		  </ul>
+		</div>      
+		</div>
+		<div class="clearfloat"></div>
+		<div class="flash">
+		<div id="player">
+			<ul class="Limg">
+			<li><a href="#" target="_blank"><img src="@{'/public/images/expic1.jpg'}"/><p>企业宣传 </p></a></li>
+			<li><a href="#" target="_blank"><img src="@{'/public/images/expic2.jpg'}"/><p>企业宣传</p></a></li>
+			<li><a href="#" target="_blank"><img src="@{'/public/images/expic3.jpg'}"/><p>企业宣传</p></a></li>
+			<li><a href="#" target="_blank"><img src="@{'/public/images/expic4.jpg'}"/><p>企业宣传</p></a></li>
+			</ul>
+			<cite class="Nubbt"><span class="on">1</span><span >2</span><span >3</span><span >4</span></cite> 
+		</div>
+		<script language=javascript type="text/javascript">
+		var player1 = new player('player').init();
+		</script>
+		</div>
+		
+		
+	    #{doLayout /}
+			
+			
+		<div class="clearfloat"></div>
+		<div id="footer"><dl>
+		    <dt><a href="#">关于我们</a>　||　<a href="#">产品目录</a>　||　<a href="#">联系我们</a>　||　<a href="#">友情链接</a>　||　<a href="#">反馈问题</a>　||　<a href="#">广告合作</a></dt>
+		      <dd>版权所有：弗罗亚窗帘<br/>
+			  电话：13711045378,020-36052213&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;QQ：2698944259<br />
+		      地址：广州市海珠区东晓南路二街  华岭家纺城A区1楼1110号 E-mail：floiergz@hotmail.com<br/>
+			  </dd>
+		    </dl>
+		</div>
+		</div>
+    </body>
+</html>

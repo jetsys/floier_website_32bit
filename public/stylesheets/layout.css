@@ -1,0 +1,80 @@
+/*body*/
+a {text-decoration:none;}
+a:hover { color:#f00;}
+a, a:link {color: #00349A;}
+body {font-size: 12px; font-family: Verdana; background:#FAF6F7} 
+#container { width:1000px; margin:0 auto;}
+/*header background:#CCFFCC;*/
+#header { height:70px;  margin-bottom:8px;}
+#header .logo{float:left;}
+#header .logoright{float:right;}
+#nav { height:40px; width:100%; background:#000000; margin-bottom:8px;}
+ul {list-style:none;}
+/*- Menu Tabs 1--------------------------- */ 
+.nav_main {float:left;background:#333; width:100%; font-size:93%; line-height:normal; border-bottom:0px solid #BCD2E6;}
+.nav_main ul {margin:0;  padding:10px 10px 0px 5px;}
+.nav_main li {display:inline; margin:0; padding:0;}
+.nav_main a {float:left; margin:0; padding:0 0 0 4px; text-decoration:none;}
+.nav_main a span {float:left; display:block; padding:5px 15px 10px 6px; color:#FFFFFF; font-size:15px; font:bold;}
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+.nav_main a span {float:none;}
+/* End IE5-Mac hack */
+.nav_main a:hover span {color:#627EB7;}
+.nav_main a:hover {background-position:0% -42px;}
+.nav_main a:hover span {background-position:100% -42px;}
+/*flash*/
+.flash {height:270px; background:#CCFFCC; margin-bottom:5px;}
+/*main*/
+#maincontent { margin-bottom:5px;}
+#main { float:left; width:664px; height:auto;}
+#main .productShow dt{float: left; width: 70px; margin: 0px; padding: 0px;}
+#main .porductShow dd{float: left; clear: none; width: 290px; margin: 0px; padding: 0px;}
+#main .porductShow dl{width: 350px; font-size: 9pt; line-height: 1.5em; position:relative; margin: 0px; padding: 0px; left:15px;}
+.red {color: #FF3300;}
+
+.box_con {width:760px; height:auto; margin:0px; border:1px solid #ccc; padding:0px;}
+.box_con .product {width:760px; height:280px; padding-bottom:15px; border-bottom:1px solid #c0c0c0; background:#ffffff}
+.box_con dl { height:230px; margin:10px 5px 10px 25px; }
+.box_con dl dt { float:left; width:360px;}
+.box_con dl dd { float:left; margin:3px 5px 0px 25px; clear: none; width:310px; padding:0px;color:#888; line-height:1.5; font-size: 12px;}
+//.box_con dl dd a {color:#f6456b; }
+.box_con dl dd a.isEnter{display:block; color: #f8436c;}
+.box_con dl dd a.keycontent { display:inline-block;  border: 1px solid #ddd; color: #545454; border-radius: 5px;}
+.box_con dl dd .des{margin-top: 8px; }
+.box_con dl dd a.intro {display:inline; color:#000000; line-height: 20px;}
+.box_con dl dd a.show {color: #f8436c; line-height: 20px;}
+.box_con dl dd .titlebox{border-bottom: 1px solid #ddd; margin-top: 5px;}
+.box_con dl dd .titlebox span{border: 1px solid #ddd;border-bottom: 1px solid #fff;line-height: 12px;height: 26px;display: inline-block;position: relative;bottom: -1px;line-height: 26px;padding: 0 17px;color: #333;font-weight: bold;}
+.box_con dl dd .listbox {width:310px; margin-top: 12px; float:left; height:100px;}
+
+.listbox .boxPic { float:left; margin:0 0 0px 12px; display:inline; text-align:center;}
+
+.side { float:right; width:228px; border:1px solid #c0c0c0; background:#ffffff} 
+//.side_box { margin-bottom:8px;}
+.side_box_header { height:27px; font-family: "微软雅黑"; font-size:14px; color:#444; background:#f0f1f1; border-bottom:1px solid #c0c0c0; padding:8px 0 0 15px; border-radius: 2px;}
+.side_box_header .more{ padding:0px 20px 0 0px; float: right; color: #787878;}
+.side_box .hotProduct ul{margin-top:12px;}
+.side_box span strong { color:#f30;}
+/*rank*/
+.side_box .productList ul li span {float: right; padding-right: 6px;}
+.side_box .productList ul li{border-bottom: 1px dotted #DCDCDC;margin: 0 6px;padding: 10px 0;padding-left: 6px;}
+/*contact*/
+.side_box .contactus .contact {width: 100%;border-bottom: 0px solid #e3e3e3;height: 235px;margin-top: 5px;color: #5E5E5E;line-height: 25px;}
+.side_box .contactus dt {float:left; width: 67px; text-align: right;}
+.side_box .contactus dd {float:left; width: 140px; margin-left: 0px;}
+.side_box .tempclass{width: 100%;border-bottom: 0px solid #e3e3e3;height: 43px;margin-top: 5px;color: #5E5E5E;line-height: 25px;}
+/*producPic*/
+.productPic .productPic_list ul { padding:0 0 15px 0; margin:0px;overflow:auto; zoom:1;}
+.productPic .productPic_list ul li { width:200px; float:left; margin:15px 0 0px 41px; display:inline; text-align:center;}
+.productPic .productPic_list ul li a { display:block; }
+.productPic .productPic_list ul li img { margin-bottom:3px;}
+//.side_box_header { height:27px; font-size:14px; color:#444; background:#f0f1f1; border-bottom:1px solid #c0c0c0; padding:8px 0 0 15px; border-radius: 2px;}
+.side_box_header span strong { color:#f30;}
+span.home {display: block; float: left; margin-right: 6px; width: 15px; height: 15px; background: url(/images/icon.gif) no-repeat -9px -197px;}
+/*footer*/
+#footer { text-align:center;}
+#footer dl dt { height:28px; line-height:28px; background:#afafaf; color:#fff;}
+#footer dl dt a { font-weight:bold; color:#fff;}
+#footer dl dd { padding:8px 0; color:#666; line-height:2;}
+
+.clearfloat {clear:both;height:0;font-size: 1px;line-height: 0px;}
